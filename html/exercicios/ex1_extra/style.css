@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;    
+}
+
+.titulo-destacado {
+    color:blue;
+}
+
+a {
+    color: white;
+}
+
+.conteudo {
+    margin: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo_apresentacao {
+    height: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
