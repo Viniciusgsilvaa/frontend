@@ -36,15 +36,15 @@ a {
 
 .conteudo_apresentacao_titulo {
     font-size: 36px;
-    height: 593px;
-    width: 168px;
+    width: 593px;
+    height: 168px;
     font-family: "Krona One", serif;
 }
 
 .conteudo_apresentacao_paragrafo{
     font-size: 24px;
-    height: 593px;
-    width: 144px;
+    width: 593px;
+    height: 144px;
     font-family: "Montserrat", serif;
 
 }
@@ -64,6 +64,5 @@ a {
     font-weight: 600px;
     font-family: "Montserrat", serif;
     text-decoration: none;
-    color: black;
-    
+    color: black;    
 }
