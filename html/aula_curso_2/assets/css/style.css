@@ -6,7 +6,6 @@
 }
 
 body {
-    height: 100vh;
     box-sizing: border-box;
     background-color: black;
     color: white;    
@@ -78,6 +77,21 @@ a {
     font-family: "Montserrat", serif;
     text-decoration: none;
     color: #f6f6f6;
+    gap: 16px;
     
        
+}
+
+.conteudo_link_botao:hover {
+    background-color: #272727;
+}
+
+.rodape {
+    background-color: #22d4fd;
+    color: #272727;
+    padding: 24px;
+    text-align: center;
+    font-family: "Montserrat", serif;
+    font-size: 24px;
+    font-weight: 400;
 }
