@@ -25,6 +25,7 @@ body {
     font-size: 24px;
     font-weight: 600;
     color: #22d4fd;
+    text-decoration: none;
 }
 
 a {
@@ -64,6 +65,7 @@ a {
     width: 593px;
     height: 144px;
     font-family: "Montserrat", serif;
+    padding: 15%;
 
 }
 
