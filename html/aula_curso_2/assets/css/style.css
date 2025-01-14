@@ -11,8 +11,20 @@ body {
     color: white;    
 }
 
-.titulo-destacado {
-    color:blue;
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho_menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho_menu_link {
+    font-family: "Montserrat", serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22d4fd;
 }
 
 a {
@@ -34,6 +46,10 @@ a {
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
+
+.titulo-destacado {
+    color:blue;
 }
 
 .conteudo_apresentacao_titulo {
