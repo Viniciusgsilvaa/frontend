@@ -1,5 +1,6 @@
 :root {
     --cor-de-fundo: #00030C;
+    
 }
 
 *{
@@ -9,6 +10,30 @@
 
 body {
     background-color: var(--cor-de-fundo);
+    box-sizing: border-box;
+}
+
+.conteudo {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.conteudo__1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.conteudo__1__titulo {
+    color: white;
+}
+
+.conteudo__1__links {
+    color: #FFFFFF;
 }
 
 .rodape {
