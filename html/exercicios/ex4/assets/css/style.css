@@ -1,0 +1,50 @@
+:root {
+    --cor-de-fundo: #00030C;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    box-sizing: border-box;
+}
+
+.conteudo {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.conteudo__1 {
+    background-image: url("/html/aula_curso_4/assets/img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.conteudo__1__titulo {
+    color: white;
+}
+
+.conteudo__1__links {
+    color: #FFFFFF;
+}
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape__links {
+    display: flex;
+    justify-content: space-between;
+}

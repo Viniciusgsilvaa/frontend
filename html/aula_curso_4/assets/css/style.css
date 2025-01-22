@@ -1,47 +1,75 @@
 :root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
-    
-}
-
-*{
-    margin: 0;
-    padding: 0;
+    --fonte-principal: 'Inter';
+    --botao-azul-efeito: #3c92fa;
 }
 
 body {
     background-color: var(--cor-de-fundo);
-    box-sizing: border-box;
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400
+    ;
 }
 
-.conteudo {
-    padding: 5% 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 82px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.conteudo__1 {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+.principal {
+    background-image: url("/html/aula_curso_4/assets/img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-.conteudo__1__titulo {
-    color: white;
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;  
+    
 }
 
-.conteudo__1__links {
-    color: #FFFFFF;
+.container__titulo{
+    font-family: 28px;
+    font-weight: 700;
 }
 
-.rodape {
+.container__botao{
+    background-color: var(--botao-azul-efeito);
+    border-radius: 5px;
+    padding: 1em;
+    text-decoration: none;
+    color: var(--branco-principal);
+    display: block;
+    margin-bottom: 1em;
     text-align: center;
-    margin: 5em 3em;
 }
 
-.rodape__links {
-    display: flex;
-    justify-content: space-between;
+.container__botao__secundario {
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 1em;
+    text-decoration: none;
+    color: var(--branco-principal);
+    display: block;
+    border: 2px solid var(--branco-principal);
+    text-align: center;
+}
+
+.container__aviso{
+    color: var(--cinza-secundario);
+    font-size: 12px;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
 }
