@@ -25,6 +25,8 @@ body {
     background-image: url("/html/aula_curso_4/assets/img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -47,7 +49,7 @@ body {
     color: var(--branco-principal);
     display: block;
     margin-bottom: 1em;
-    text-align: center;
+    
 }
 
 .container__botao__secundario {
@@ -72,4 +74,67 @@ body {
 
 .container__caixa {
     margin: 0 6em;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+    
+}
+
+.container__descricao {
+    padding: 2em;
+    
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.descricao__titulo {
+    font-size: 48px;
+    font-weight: 700px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.lista__item {
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape__links {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
 }
