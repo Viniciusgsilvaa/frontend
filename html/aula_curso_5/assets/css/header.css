@@ -50,4 +50,9 @@
     font-family: var(--font-menu);
     font-family: 16px;
     font-weight: 400;
+    text-transform: uppercase;
+}
+
+.container__botao {
+    display: none;
 }
