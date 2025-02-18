@@ -6,6 +6,7 @@
     --branco: #FFFFFF;
     --font-menu: "Poppins", serif;
     --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     
 }
 
@@ -148,13 +149,13 @@ body{
 .topicos {
     background-color: #002F52;
     text-align: center;
+    padding: 1em 0;
 }
 
 .topicos__titulo {
     color: var(--branco);
     font-family: var(--font-menu);
     font-weight: 300;
-    padding: 1em;
 }
 
 .topicos__lista {
@@ -174,4 +175,58 @@ body{
     font-family: var(--font-menu);
     font-size: 14px;
     font-weight: 700;
+}
+
+.contato {
+    background-color: var(--branco);
+    padding: 1em;
+}
+
+.contato__titulo, .contato__texto {
+    background: #002F52;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contato__titulo {
+    font-family: var(--font-menu);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contato__texto {
+    font-family: var(--font-menu);
+    font-size: 16px;
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.contato__email {
+    padding: 1em;
+    border: 1px solid #002F52;
+    border-radius: 24px;
+    width: 90%;
+    align-items: center;
+}
+
+.contato__email::placeholder {
+    font-family: var(--font-menu);
+    color: #002F52;
+    background: url("../img/Email.svg") no-repeat;
+    padding-left: 2em;   
+}
+
+hr {
+    margin: 0;
+}
+
+.rodape {
+    background-color: var(--branco);
+    padding: 1em;
+    font-family: var(--font-menu);
+}
+
+.rodape__titulo {
+
 }
