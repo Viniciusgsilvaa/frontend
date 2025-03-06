@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato  -  Barbearia Alura</title>
+    <link rel="stylesheet" href="./assets/css/produto.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1><img src="./assets/img/logo.png" alt="" class="cabecalho__img"></h1>
+        <nav>
+            <ul class="container__cabecalho">            
+                <li class="container__cabecalho__itens">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="container__cabecalho__itens">
+                    <a href="produtos.html">Produtos</a>
+                </li>
+                <li class="container__cabecalho__itens">
+                    <a href="contato.html">Contato</a>
+                </li>    
+            </ul>
+        </nav>
+                
+    </header>
+
+    <main> 
+        <form action="contato.html">
+            <label for="nomesobrenome">Nome e sobrenome:</label>
+            <input type="text" id="nomesobrenome" class="input__padrao">
+            
+            <label for="email">Email:</label>
+            <input type="text" id="email" class="input__padrao">
+
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" class="input__padrao">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="" id="mensagem" cols="70" rows="10" class="input__padrao"></textarea>
+            
+            <div>
+                <p>Como prefere nosso contato?</p>
+                <label for="radio-email"><input type="radio" name="contato" id="radio-email" value="email">Email</label>
+                
+
+                <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone" value="telefone">Telefone</label>
+                
+
+                <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp" value="whatsapp">WhatsApp</label>
+                
+                <div>
+                    <p>Qual horario prefere ser atendido</p>
+                    <select name="" id="">
+                        <option value="">Manha</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noite</option>
+    
+                    </select>
+                </div>
+                
+                
+
+                <label for="" class="checkbox"><input type="checkbox">Gostaria de receber mas novidades por email?</label>
+
+                <input type="submit" value="Envio do formulario">
+            </div>
+            
+        </form>
+    </main>
+
+    <footer>
+        <img src="/html/aula_curso_6/assets/img/logo-branco.png" alt="">
+        <p> &copy; Copyright Barbearia Alura</p>
+    </footer>
+</body>
+</html>
